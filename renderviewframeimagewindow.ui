@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RenderViewFrameImageWindow</class>
+ <widget class="QMainWindow" name="RenderViewFrameImageWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>772</width>
+    <height>387</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Render Image View</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>View parameters</string>
+      </property>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>271</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Full</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Direct</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Indirect</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>91</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Render view mode</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="btnExportIlluminanceToClipboard">
+       <property name="geometry">
+        <rect>
+         <x>544</x>
+         <y>20</y>
+         <width>191</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Export Illuminance to Clipboard</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="RenderViewFrameImageWidget" name="imageViewer" native="true"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>772</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>RenderViewFrameImageWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">WidgetsUI/renderviewframeimagewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
