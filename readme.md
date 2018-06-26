@@ -23,10 +23,10 @@ Implementation of the algorithm for visualization of 3D scenes by local estimati
 - Budak V.P., Zheltov V.S., Lubenchenko A.V., Shagalov O.V. ON THE EFFICIENCY OF ALGORITHMS OF MONTE CARLO METHODS // В сборнике: Proceedings of SPIE - The International Society for Optical Engineering 21, Atmospheric Physics. Сер. "21st International Symposium on Atmospheric and Ocean Optics: Atmospheric Physics" 2015. С. 96801P. 
 
 ## Примеры визуализаций:
-![][img01 | width=600]
+![][img01]
 ![][img02]
 ![][img03]
 
-[img01]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/01_main_window.png
+[img01]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/01_main_window.png | width=600
 [img02]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/02_cornel_box.png
 [img03]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/03_sponza.png
