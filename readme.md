@@ -5,7 +5,8 @@ Implementation of the algorithm for visualization of 3D scenes by local estimati
 Реализация двойной локальной оценки метода Монте-Карло для визуализации трехмерных сцен на Qt (C++). Локальные оценки также известны как instant radiosity.
 
 После компиляции копируем Content в место сборки. Запускам "Render" на главной форме. После запуска всех потоков можно остановить визуализацию StopRender и получить финальное изображение.
-Проект создан не как конечный продукт, а только тот минимум что был неодходим в рамках работы над диссертацией.
+
+** Проект создан не как конечный продукт, а только тот минимум, который был неодходим в рамках работы над диссертацией **
 
 
 ## Зависимости:
@@ -23,7 +24,9 @@ Implementation of the algorithm for visualization of 3D scenes by local estimati
 
 ## Примеры визуализаций:
 ![][img01]
+![][img02]
+![][img03]
 
 [img01]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/01_main_window.png
-[img01]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/02_cornel_box.png
-[img01]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/03_sponza.png
+[img02]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/02_cornel_box.png
+[img03]: https://github.com/Zheltov/QTIlluminarium/blob/master/Images/03_sponza.png
